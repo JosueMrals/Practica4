@@ -106,4 +106,4 @@ Esta api corre en aproximadamente el 98,1% de los dispositivos. Tiene caracteris
 <img src="medios\16.jpg"/>
 
 > *Busque el archivo **build.gradle(Module:app)**.*
-![Imagen](medios\16.jpg)
+![Imagen](/medios/16.jpg)
