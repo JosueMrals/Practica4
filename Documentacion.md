@@ -6,12 +6,15 @@
 ## 1.1: Instalación de Android Studio
 
 > *Verifique que ya cuente con el JDK de Java en cualquier versión*
+
 <img src="medios\2.png"/>
 
 > *Verifique la ubicación de la instalación del SDK en Android Studio*
+
 <img src="medios\2.PNG"/>
 
 > *Verifique que en Android Studio este seleccionada la versión del JDK instalada en su máquina.*
+
 <img src=""/>
 
 ## 1.2: Crear la aplicación Hello World
@@ -20,20 +23,25 @@
 <img src="medios\4.jpg"/>
 
 > *Según la versión, es posible que primero seleccione la plantilla, entonces seleccione una plantilla Empty Activity en el panel correspondiente a Phone y Tablet.*
+
 <img src="medios\5.jpg"/>
 
 > *En la ventana de Configurar su proyecto, escriba Hello World para el nombre de la aplicación*
+
 <img src="medios\6.jpg"/>
 
 > *Compruebe la ubicación predeterminada del proyecto en donde desea almacenar su aplicación, en el caso de que esa no sea su ubicación preferida, puede cambiarla.*
+
 <img src="medios\7.jpg"/>
 
 > *Si no tiene pensado publicar la aplicación, puede dejar el nombre del paquete predeterminado.*
 
 > *En las nuevas versiones se elige Kotlin como el lenguaje de programación predeterminado, en el caso de que no le aparezca seleccionado, establezca Kotlin.*
+
 <img src="medios\8.jpg"/>
 
 > *Indique que porcentaje de dispositivos usan la API nivel 19 y cuales son sus características que incluye según el apartado Help me choose.*
+
 <img src="medios\9.jpg"/>
 
 Esta api corre en aproximadamente el 98,1% de los dispositivos. Tiene caracteristicas como:
@@ -81,29 +89,102 @@ Esta api corre en aproximadamente el 98,1% de los dispositivos. Tiene caracteris
 ## Aparece el editor de Android Studio
 
 > *Haga clic en la pestaña activity_main.xml para ver el editor de diseño*
+
 <img src="medios\10.jpg"/>
 
 > *Haga clic en la pestaña Diseño del editor de diseño, si aun no está seleccionada, para mostrar una representación gráfica del diseño como se muestra a continuación.*
+
 <img src="medios\11.jpg"/>
 
 > *Haga clic en la pestaña MainActivity.kt o MainActivity.java*
+
 <img src="medios\12.jpg"/>
 
 ## Explore el proyecto en el panel Android
 
 > *Si aún no está seleccionado, haga clic en la pestaña Proyecto en la columna de la pestaña vertical en el lado izquierdo de la ventana de Android Studio. Aparece el panel Proyecto. Explore todos sus directorios.*
+
 <img src="medios\13.jpg"/>
 
 ## Explore la carpeta Gradle Scripts
 
 > *La primera vez que se crea un proyecto de aplicación, el panel Proyecto > Android aparece con la carpeta Scripts de Gradle*
+
 <img src="medios\14.jpg"/>
 
 > *Si la carpeta Scripts de Gradle no está expandida, haga clic en el triángulo para expandirla.*
+
 <img src="medios\15.jpg"/>
 
 > *Busque el archivo build.gradle **(Project: Hello_World)**.*
+
 <img src="medios\16.jpg"/>
 
 > *Busque el archivo **build.gradle(Module:app)**.*
-![Imagen](/medios/16.jpg)
+
+<img src="medios\17.jpg"/>
+
+## Explorar la aplicación y la carpeta res
+
+> *Expanda la carpeta de la **aplicación**, la carpeta java y la carpeta **com.example.android.helloworld** para ver el archivo java **MainActivity**. Al hacer doble clic en el archivo se abre en el editor de código.*
+
+<img src="medios\18.jpg"/>
+
+> *Expanda la carpeta res y la carpeta de diseño y haga doble clic en el archivo **activity_main.xml** para abrirlo en el editor de diseño.*
+
+<img src="medios\19.jpg"/>
+
+## Explorar la carpeta de manifiestos
+
+> *Expanda la carpeta de manifiestos.*
+
+> *Abra el archivo AndroidManifest.xml.*
+
+<img src="medios\20.jpg"/>
+
+> *En cada uno de estos ficheros, indique para que se utilizan en el proyecto Android*
+
+<!-- --------------------------------------------------------------------------------------------- -->
+
+## 1.3: Use un AVD **(Android Virtual Device)**
+
+## Crear un dispositivo virtual de Android **(AVD)**
+
+> *En Android Studio, seleccione **Herramientas > Android > Administrador de AVD** o haga clic en el icono **Administrador de AVD** en la barra de herramientas. Aparecerá la pantalla Sus dispositivos virtuales. Si ya ha creado dispositivos virtuales, la pantalla los muestra; de lo contrario se ve una lista en blanco.*
+
+<img src="medios\22.png"/>
+<img src="medios\23.png"/>
+
+> *Haga clic en **+ Crear dispositivo virtual**. Aparece la ventana **Seleccionar hardware** que muestra una lista de dispositivos de hardware preconfigurados. Para cada dispositivo, la tabla proporciona una columna para su tamaño de visualización diagonal **(Tamaño)**, resolución de pantalla en píxeles **(Resolución)** y densidad de píxeles **(Densidad)**.*
+
+<img src="medios\24.png"/>
+<img src="medios\25.png"/>
+
+> *Haga clic en la pestaña **Recomendado** si aún no está seleccionada y elija quéversión del sistema Android se ejecutará en el dispositivo virtual (como Pie).*
+
+<img src="medios\26.png"/>
+
+> *Después de elegir una imagen del sistema, haga clic en Siguiente. Aparece la ventana Dispositivo virtual Android (AVD). También puede cambiar el nombre del AVD. Compruebe la configuración y haga clic en Finalizar.*
+
+<img src="medios\20.png"/>
+
+## Ejecute la aplicación en el dispositivo virtual
+
+> *En Android Studio, elija Run > Ejecutar aplicación o haga clic en el icono Ejecutar de la barra de herramientas.*
+
+> *En la ventana Seleccionar destino de implementación, en Dispositivos virtuales disponibles, seleccione el dispositivo virtual que acaba de crear y haga clic en Aceptar.*
+
+> *Este paso puede variar por si tiene un dispositivo predeterminado seleccionado*
+
+<img src="medios\27.png"/>
+<img src="medios\1.PNG"/>
+
+## Tu primera interfaz de usuario interactiva
+
+## 2.1: Crear el proyecto de Android Studio
+<img src="medios\21.PNG"/>
+
+> *Seleccione Run > Run app o haga clic en el icono Run Icon Ejecutar de la barra de herramientas para compilar y ejecutar la aplicación en el emulador o en el dispositivo.*
+
+<img src="medios\22.jpg"/>
+
