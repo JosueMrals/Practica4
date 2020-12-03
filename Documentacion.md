@@ -179,6 +179,36 @@ Esta api corre en aproximadamente el 98,1% de los dispositivos. Tiene caracteris
 <img src="medios\27.png"/>
 <img src="medios\1.PNG"/>
 
+## Ejecute la aplicación en un dispositivo físico
+
+> *Muestre todos los pasos necesarios para ejecutar su aplicación utilizando su dispositivo físico*
+
++ En el dispositivo fisico, dirijirse a Configuracion > Acerca del Telefono > Pulsar varias veces sobre el Numero de Compilacion hasta que muestre un mensaje que diga **"Ya eres desarrollador"** o algo similar.
+
+> *Encienda la depuración USB en su dispositivo físico*
+
++ Luego dirijirse a las Opciones de Desarrollador previamente activadas, y dentro de ese menu buscar y activar el apartado de **"Depuracion USB"**.
+
+> *Ejecute la aplicación en su dispositivo físico*
+
+<img src="medios\28.jpeg"/>
+
+## Cambiar la configuración de Gradle de la aplicación
+
+> *Cambiar la versión mínima del SDK para la aplicación*
+
+> *Encuentre el fichero build.gradle (Module:app)*
+
+<img src="medios\29.png"/>
+
+> *Busque la propiedad minSdkVersion a un nivel más bajo*
+
+<img src="medios\30.png"/>
+
+> *Sincronice la nueva configuración de Gradle*
+
+<img src="medios\31.png"/>
+
 ## Tu primera interfaz de usuario interactiva
 
 ## 2.1: Crear el proyecto de Android Studio
